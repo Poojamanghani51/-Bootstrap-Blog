@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>YogaLife Wisdom Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="#section2">About</a></li>
+        <li><a href="https://yoga-life.my.canva.site/">Website</a></li>
+        <li><a href="#section3">Top Rated Yogas</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>I Love Yoga</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Janiffer, Aug 2, 2022.</h5>
+      <h5><span class="label label-danger">Healthy </span> <span class="label label-primary">Diet</span></h5><br>
+      <p> 
+     Namaste, dear readers! Welcome to my yoga journey blog, where I'll take you through the incredible world of yoga, mindfulness, and self-discovery. My name is [Your Name], and I'm excited to share my experiences, insights, and tips on how yoga has transformed my life.
+      My journey into the world of yoga started quite unexpectedly. A friend invited me to a yoga class, promising that it would help me relax and find inner peace. Skeptical at first, I decided to give it a try, and little did I know, it would become a life-changing decision.
+      <br>
+      ### The Beginning of My Yoga Journey
+      </p>
+      <br><br>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Officially Blogging</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by 
+      Bhawna Saini, Aug 24, 2022.</h5>
+      <h5><span class="label label-success">Yoga and Wellness</span></h5>
+      <h5><span class="label label-danger">Yoga for Stress Relief</span></h5>
+      <p> It is best place for your mental and physical health, also they provide you healthy drink after yoga,it is the best that you wana search, so don't waste your time for perfect yoga classes,your search will end there go and join them , and feel the change in yourself and around you.</p>
+      <hr>
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="Pictures/Photoresizer/Jenifer.jpg" class="img-circle" height="65" width="65" alt="Client">
+        </div>
+        <div class="col-sm-10">
+          <h4>Jenifer<small> Sep 9, 2022, 9:12 PM</small></h4>
+          <p> YogaLife Wisdom Is Not Just for Asana & Pranayama But Key To Be Healthy & Happy Leaving with Inner peace. Learning Yoga As A Way Of Life. </p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="Download/Nidhisha.jpg" class="img-circle" height="65" width="65" alt="Client">
+        </div>
+        <div class="col-sm-10">
+          <h4>John Row <small>Sep 30, 2022, 8:25 PM</small></h4>
+          <p> 
+          I used to take free yoga classes included with my gym membership and was getting out of them exactly what I was paying: nothing. The a friend invited me to check out Yogalife Wisdom and now, 2 months later, I am still as impressed and motivated as the first time I took the class. What a difference it makes to have instructors who have been living the authentic yoga way for 20-30 years! (Instead of fitness instructors pretending to be yogi at my gym). I'm sticking to it for a long time, come check it out for yourself. </p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="Pictures/Photoresizer/Nested Bro.jpg" class="img-circle" height="65" width="65" alt="Client">
+            </div>
+            <div class="col-xs-10">
+              <h4>Nested Bro <small>Nov 20, 2022, 8:28 PM</small></h4>
+              <p>Me too! I Love your dedication and Knowledge about yoga. 
+              <br>
+              Thank you</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
